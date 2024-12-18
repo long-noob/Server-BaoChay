@@ -7,17 +7,19 @@ This project is a real-time web application that displays sensor data using WebS
 ## Project Structure
 
 ```
-real-time-webapp
+Server-BaoChay
 ├── public
 │   ├── css
 │   │   └── styles.css        # Styles for the web application
 │   ├── js
-│   │   └── main.js           # Client-side JavaScript for WebSocket connection
-│   └── index.html            # HTML structure of the web application
-├── src
-│   ├── server.js             # Entry point for the server application
-│   └── data
-│       └── sensorData.js     # Initial sensor data values and update functions
+│       └── main.js           # Client-side JavaScript for WebSocket connection
+│── server.js             # Entry point for the server application
+│── data
+│   |── sensorData.js     # Initial sensor data values and update functions
+|   └── db.js             #
+|
+|--views                # All UI file
+|
 ├── package.json               # npm configuration file
 └── README.md                  # Project documentation
 ```
@@ -27,7 +29,7 @@ real-time-webapp
 1. **Clone the repository:**
    ```
    git clone <repository-url>
-   cd real-time-webapp
+   cd Server-BaoChay
    ```
 
 2. **Install dependencies:**
